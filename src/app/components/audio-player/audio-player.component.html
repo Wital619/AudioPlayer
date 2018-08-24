@@ -1,0 +1,22 @@
+<div *ngIf="currentSong" class="container">
+  <div class="wrapper">
+    <div class="control-buttons-wrapper">
+      <app-audio-controls [currentSong]="currentSong"></app-audio-controls>
+    </div>
+    <div class="audio-player-wrapper">
+      <div class="song-time">
+        <span class="current-time">{{ currentTime }} / </span>
+        <span class="total-time">{{ currentSong.duration }}</span>
+      </div>
+      <app-audio-slider [currentSong]="currentSong"></app-audio-slider>
+    </div>
+    <div class="volume-wrapper">
+      <app-volume-changer [iconSize]="'28px'"></app-volume-changer>
+    </div>
+    <div class="song-wrapper">
+      <span class="song-artist-name">{{ currentSong.artist }}</span>
+      <span class="song-name"> - {{ currentSong.title}}</span>
+    </div>
+  </div>
+</div>
+<h1 *ngIf="!currentSong" class="no-song-header">Select a song from the playlist !</h1>

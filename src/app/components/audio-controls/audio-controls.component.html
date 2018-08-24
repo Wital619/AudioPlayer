@@ -1,0 +1,21 @@
+<div class="control-buttons">
+  <svg class="icon previous-song-btn" (click)="previousSong()">
+    <use href="#icon-next"></use>
+  </svg>
+  <div class="icon play-pause-block">
+    <span *ngIf="isPlaying" class="pause-btn" (click)="pause()">
+      <svg class="icon vertical-line-icon">
+        <use href="#icon-vertical-line"></use>
+      </svg>
+      <svg class="icon vertical-line-icon">
+        <use href="#icon-vertical-line"></use>
+      </svg>
+    </span>
+    <svg *ngIf="!isPlaying" class="icon play-btn" (click)="play()">
+      <use href="#icon-play"></use>
+    </svg>
+  </div>
+  <svg class="icon next-song-btn" (click)="nextSong()">
+    <use href="#icon-next"></use>
+  </svg>
+</div>

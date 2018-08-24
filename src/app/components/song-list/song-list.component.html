@@ -1,0 +1,5 @@
+<div class="song-list">
+  <h1 class="list-header">PLAYLIST</h1>
+  <app-song-item *ngFor="let song of songs" [song]="song"></app-song-item>
+</div>
+<ngx-loading [show]="loading" [config]="{ backdropBorderRadius: '14px' }"></ngx-loading>

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "title": "Him & I",
+    "artist": "G-Eazy & Halsey",
+    "link": "../../../assets/songs/G-Eazy & Halsey - Him & I.mp3",
+    "duration": "4:29"
+  },
+  {
+    "id": "2",
+    "title": "Wake Up Call",
+    "artist": "Maroon 5",
+    "link": "../../../assets/songs/Maroon 5 - Wake Up Call.mp3",
+    "duration": "3:21"
+  },
+  {
+    "id": "3",
+    "title": "Sad Story",
+    "artist": "Merk & Kremont",
+    "link": "../../../assets/songs/Merk & Kremont - Sad Story.mp3",
+    "duration": "3:32"
+  },
+  {
+    "id": "4",
+    "title": "Troublemaker",
+    "artist": "Olly Murs & Flo Rida",
+    "link": "../../../assets/songs/Olly Murs & Flo Rida - Troublemaker.mp3",
+    "duration": "3:05"
+  },
+  {
+    "id": "5",
+    "title": "Tous Les Memes",
+    "artist": "Stromae",
+    "link": "../../../assets/songs/Stromae - Tous Les Memes.mp3",
+    "duration": "3:33"
+  }
+]

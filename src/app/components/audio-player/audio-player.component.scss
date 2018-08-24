@@ -1,0 +1,77 @@
+@import '../../../scss/styles';
+
+.container {
+  width: 100%;
+  background-color: cadetblue;
+}
+
+.wrapper {
+  position: relative;
+  height: 44px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.control-buttons-wrapper {
+  float: left;
+  line-height: 0;
+}
+
+.audio-player-wrapper {
+  float: left;
+  width: 540px;
+  max-width: 45%;
+}
+
+.song-time {
+  float: right;
+  color: $main-one;
+  font-size: 0.8em;
+  margin-bottom: 3px;
+}
+
+.volume-wrapper {
+  position: relative;
+  float: left;
+  line-height: 0;
+  margin: 0 14px 0 8px;
+
+  &:hover /deep/ input[type=range] {
+    display: block;
+  }
+}
+
+.song-wrapper {
+  float: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 415px;
+}
+
+.song-artist-name {
+  color: $main-two;
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+.song-name {
+  color: $main-one;
+  font-size: 1.5em;
+}
+
+.no-song-header {
+  position: relative;
+  margin-top: 20px;
+  color: $main-one;
+  text-align: center;
+  animation: run 3s linear infinite;
+}
+
+@keyframes run {
+  0% { transform: translateX(-50px); }
+  50% { transform: translateX(50px); }
+  100% { transform: translateX(-50px); }
+}

@@ -1,0 +1,33 @@
+<div class="song-wrapper">
+  <div class="control-buttons">
+    <div *ngIf="song.isPlaying" class="pause-btn" (click)="pause()">
+      <svg class="icon left-line-icon">
+        <use href="#icon-vertical-line"></use>
+      </svg>
+      <svg class="icon right-line-icon">
+        <use href="#icon-vertical-line"></use>
+      </svg>
+    </div>
+    <svg *ngIf="!song.isPlaying" class="icon play-btn" (click)="play()">
+      <use href="#icon-play"></use>
+    </svg>
+  </div>
+  <div class="details-block">
+    <div class="top-container">
+      <div class="song-info">
+        <span class="song-artist-name">{{ song.artist }}</span>
+        <span class="song-name"> - {{ song.title }}</span>
+      </div>
+      <div class="song-time">
+        <span *ngIf="song.currentTime" class="current-time">{{ song.currentTime }} / </span>
+        <span class="duration">{{ song.duration }}</span>
+      </div>
+      <div class="volume-wrapper">
+        <app-volume-changer [iconSize]="'28px'"></app-volume-changer>
+      </div>
+    </div>
+    <div class="slider-block">
+      <app-audio-slider [currentSong]="song"></app-audio-slider>
+    </div>
+  </div>
+</div>

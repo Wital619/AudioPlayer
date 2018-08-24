@@ -1,0 +1,31 @@
+@import './variables';
+@import './mixins';
+
+* {
+  font-family: Arial, sans-serif;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  min-height: 100%;
+  background-color: #FFFFB2;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li:focus {
+    outline: none;
+  }
+}

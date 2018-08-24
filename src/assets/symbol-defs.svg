@@ -1,0 +1,21 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <symbol id="icon-play" viewBox="0 0 32 32">
+      <path d="M1.6 32v-32l27.712 16-27.712 16z"/>
+    </symbol>
+    <symbol id="icon-sound-volume" viewBox="0 0 32 32">
+      <path d="M10.864 7.232l-6.752 4.928h-4.112v8.352h4.128l6.736 4.912v-18.192z"/>
+      <path d="M16.24 12.896h1.968v6.88h-1.968v-6.88z"/>
+      <path d="M20.848 10.736h1.968v11.2h-1.968v-11.2z"/>
+      <path d="M25.44 8.56h1.968v15.536h-1.968v-15.536z"/>
+      <path d="M30.032 6.4h1.968v19.872h-1.968v-19.872z"/>
+    </symbol>
+    <symbol id="icon-next" viewBox="0 0 32 32">
+      <path d="M27.712 16l-27.712 16v-32l27.712 16z"/>
+      <path d="M27.712 0h3.712v32h-3.712v-32z"/>
+    </symbol>
+    <symbol id="icon-vertical-line" viewBox="0 0 32 32">
+      <path d="M13.538 0h3.692v32.32h-3.692v-32.32z"/>
+    </symbol>
+  </defs>
+</svg>
